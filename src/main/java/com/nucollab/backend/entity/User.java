@@ -13,8 +13,11 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class User {
     private Integer userId;
+    private String username;
     private String email;
     private String password;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 }
+
+//Entity -> Mappers -> Mapper -> Repository -> Dto -> Service -> Controller
